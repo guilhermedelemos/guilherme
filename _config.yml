@@ -1,0 +1,111 @@
+---
+title: Estado da Arte
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: guilherme@estadodaarte.com
+author: Guilherme de Lemos
+description: Site.
+baseurl: ''
+url: http://estadodaarte.com
+date_format: "%b %-d, %Y"
+google_verification: 
+google_analytics: 
+google_tag_manager: 
+bing_verification: 
+animated: true
+show_related_posts: true
+show_post_footers: false
+show_social_icons: false
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: true
+enable_anchorjs: false
+post_preview_image: false
+fb_page: false
+fb_page_id: 
+disqus_shortname: 
+txtpen_sitename: 
+facebook_comments: 
+facebook_appid: 
+facebook_comments_number: 10
+github_username: guilhermedelemos
+bitbucket_username: 
+stackoverflow_id: 
+twitter_username: 
+skype_username: 
+steam_nickname: 
+google_plus_id: 
+linkedin_username: 
+angellist_username: 
+medium_id: 
+bitcoin_url: 
+paypal_url: 
+flattr_button: 
+telegram_username: 
+vk_id: 
+show_sharing_icons: false
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+text:
+  pagination:
+    newer: Newer
+    older: Older
+  share_buttons:
+    text: Share this post!
+    facebook: Share on Facebook
+    twitter: Share on Twitter
+    googleplus: Share on Google+
+    linkedin: Share on LinkedIn
+    digg: Share on Digg
+    tumblr: Share on Tumblr
+    reddit: Share on Reddit
+    stumbleupon: Share on StumbleUpon
+    hackernews: Share on Hacker News
+  post:
+    updated: Atualizado
+    minute_read: minute read
+    related_posts: Assuntos relacionados
+  index:
+    coming_soon: Em breve...
+  contact:
+    email: Endereço de Email
+    content: O que você gostaria de dizer?
+    subject: New submission!
+    submit: Enviar
+    ajax:
+      sending: enviando..
+      sent: Mensagem enviada!
+      error: Erro!
+  thanks: Obrigado pelo seu contato. Responderemos o mais rápido possível.
+  og_locale: en_US
+markdown: kramdown
+redcarpet:
+  extensions:
+  - smart
+  - tables
+  - with_toc_data
+permalink: pretty
+paginate: 4
+sass:
+  style: compressed
+gems:
+- jekyll-paginate
+- jekyll-sitemap
+exclude:
+- Gemfile
+- Gemfile.lock
+- vendor
+- script
