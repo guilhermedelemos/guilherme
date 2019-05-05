@@ -1,4 +1,14 @@
-# guilhermedelemos.github.io
-http://estadodaarte.com
+# Usado neste site
 
-[![Build Status](https://travis-ci.org/estado-da-arte/estado-da-arte.github.io.svg?branch=master)](https://travis-ci.org/estado-da-arte/estado-da-arte.github.io)
+## Tema
+https://themes.3rdwavemedia.com/bootstrap-templates/free/
+
+## Jekyll
+bundle install
+bundle exec jekyll serve
+
+## SASS
+sass assets/scss/styles.scss assets/css/styles.css
+
+## Reveal.js
+git@github.com:hakimel/reveal.js.git
